@@ -1,0 +1,24 @@
+{
+  "name": "github-hook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "githook.js",
+  "scripts": {
+    "dev": "node githook.js",
+    "debug": "nodemon --inspect githook.js",
+    "prebuild": "npm ci",
+    "build": "",
+    "clean": "rimraf bin/*.{d.ts} node_modules"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0"
+  }
+}
